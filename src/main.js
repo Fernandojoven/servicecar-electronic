@@ -61,8 +61,8 @@ function buildApp() {
   app.innerHTML = `
     <aside class="sidebar" id="sidebar">
       <div class="sidebar-logo">
-        <h1>Servicecar<br>Electronic</h1>
-        <p>Sistema de gestión</p>
+        <img src="/logo.png" alt="Service Car Electronic" style="width:100%;max-width:180px;display:block;margin:0 auto 4px;">
+        <p style="text-align:center;">Sistema de gestión</p>
       </div>
       <nav class="sidebar-nav">
         ${Object.entries(pages).map(([key, p]) => `
